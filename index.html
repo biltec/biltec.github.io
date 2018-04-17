@@ -34,17 +34,20 @@
             font-family: 'Montserrat', sans-serif;
         }
 
+        .gradient-top {
+            height: 70px;
+            width: 100%;
+            background: white; /* For browsers that do not support gradients */
+            background: linear-gradient(to bottom, #f2f2f2, white); /* Standard syntax (must be last) */
+        }
     </style>
 
 </head>
 
 <body>
 
-
 <div class="container">
 
-    <!--<nav class="navbar navbar-default navbar-nav">-->
-    <div class="container">
 
         <ul class="nav navbar-nav">
             <li><a class="text-muted h2" href="#cel">Cel</a></li>
@@ -54,19 +57,13 @@
             <li><a class="text-muted h2" href="#galeria">Galeria</a></li>
         </ul>
 
-    </div>
-    <!--</nav>-->
 </div>
 
-
 <div class="container marketing">
-
-
-    <hr class="featurette-divider">
-        <!--<br/>-->
-    <!--<br/>-->
+    <hr class="featurette-heading-first gradient-top"/>
 
     <div class="row featurette">
+    <!--<div class="row featurette">-->
         <div class="col-md-7">
             <h2 class="featurette-heading-first" id="cel">Przykuj uwagę klienta nowym wyświetlaczem kursów walut<br/>
                 <small class="text-muted">Wyróżnij się na tle konkurencji</small><br/>
@@ -87,7 +84,7 @@
         </div>
     </div>
 
-    <hr class="featurette-divider">
+    <hr class="featurette-divider gradient-top">
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
@@ -115,7 +112,7 @@
         </div>
     </div>
 
-    <hr class="featurette-divider">
+    <hr class="featurette-divider gradient-top">
 
     <div class="row featurette">
         <div class="col-md-7">
@@ -143,7 +140,7 @@
         </div>
     </div>
 
-    <hr class="featurette-divider">
+    <hr class="featurette-divider gradient-top">
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
@@ -165,7 +162,7 @@
         </div>
     </div>
 
-    <hr class="featurette-divider">
+    <hr class="featurette-divider gradient-top">
 
     <h2 class="featurette-heading-first" id="galeria">
         Galeria<br/>
