@@ -37,7 +37,7 @@
         }
 
         .gradient-top {
-            height: 70px;
+            height: 40px;
             width: 100%;
             /*background: #292c2f; !* For browsers that do not support gradients *!*/
             background: white; /* For browsers that do not support gradients */
@@ -68,9 +68,50 @@
 <div class="container marketing">
     <hr class="featurette-heading-first gradient-top"/>
 
-    <div class="row featurette">
+    <!--<div class="row featurette">-->
         <!--<div class="r
     <!-- FOOTER -->
+
+
+        <div>
+
+            <div class="container">
+                <h2>Skontaktuj się z nami!</h2>
+                <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwUVYbYrUEdSUHzws0HnzQFDN8zwM2iH87HbM_MXA/exec">
+
+                    <div class="form-group">
+                        <label for="name">Imię: </label>
+                        <input class="form-control" id="name" name="name" placeholder="Jak mamy się do Ciebie zwracać" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Wiadomość: </label>
+                        <textarea class="form-control" id="message" name="message" rows="10" placeholder="Napisz nam, jak możemy Ci pomóc"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"><em>Twój</em> adres Email:</label>
+                        <input class="form-control" id="email" name="email" type="email" value="" required="required" placeholder="np. imie.nazwisko@email.pl" />
+                        <span id="email-invalid" style="display:none">
+        Email musi być poprawny</span>
+                    </div>
+
+                    <button class="btn btn-primary pull-right">
+                        Wyślij
+                    </button>
+
+                </form>
+
+                <div style="display:none;" id="thankyou_message">
+                    <h2><em>Dziękujemy</em> za wiadomość!
+                        Skontaktujemy się z Tobą wkrótce!</h2>
+                </div>
+
+                <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js">
+                </script>
+
+            </div>
+        </div>
 
         <!--<div class="container-fluid">-->
         <div class="container">
@@ -123,7 +164,7 @@
             <!--</div>-->
         </footer>
         </div>
-    </div>
+    <!--</div>-->
 
 </div><!-- /.container -->
 
