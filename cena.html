@@ -46,6 +46,8 @@
             background-color: #292c2f;
             color: white;
         }
+
+
     </style>
 
 </head>
@@ -53,68 +55,105 @@
 <body>
 
 <div class="container">
-    <ul class="nav navbar-nav">
-        <li><a class="text-muted h2" href="./index.html">Cel</a></li>
-        <li><a class="text-muted h2" href="./oferta.html">Oferta</a></li>
-        <li><a class="text-danger h2" href="./cena.html">Cena</a></li>
-        <li><a class="text-muted h2" href="./galeria.html">Galeria</a></li>
-        <li><a class="text-muted h2" href="./demo.html">Demo</a></li>
-        <li><a class="text-muted h2" href="./kontakt.html">Kontakt</a></li>
+
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link h2" href="./index.html">Cel</a></li>
+        <li class="nav-item"><a class="nav-link h2" href="./oferta.html">Oferta</a></li>
+        <li class="nav-item"><a class="nav-link h2 disabled text-danger" href="./cena.html">Cena</a></li>
+        <li class="nav-item"><a class="nav-link h2" href="./galeria.html">Galeria</a></li>
+        <li class="nav-item"><a class="nav-link h2" href="./demo.html">Demo</a></li>
+        <li class="nav-item"><a class="nav-link h2" href="./kontakt.html">Kontakt</a></li>
     </ul>
+
 </div>
 
 <div class="container marketing">
     <hr class="featurette-heading-first gradient-top"/>
 
-    <h2 class="alert alert-danger">Już wkrótce dostępny w abonamencie za jedyne <b>39 zł / miesiąc</b></h2>
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading" id="cena">
-                Jaka jest cena?
-                <br/>
-                <small class="text-muted">Za co i kiedy płacisz?</small>
-            </h2>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Aktualne oferty</h1>
+    </div>
 
-            <p class="lead"><span class="glyphicon glyphicon-ok" style="font-size: 14px;">&nbsp;</span>Ceny:
-            <ul>
-                <li><strong>Mikrokomputer</strong> wraz z zasilaczem i dwiema kartami pamięci (1 zapasowa) <span class="label label-success">350zł brutto</span></li>
-                <li>Dedykowane <strong>oprogramowanie</strong> do prezentacji kursów walut, <strong>kable</strong> RJ45, HDMI, USB <-> Micro USB-B, instalacja oraz <strong>szkolenie
-                    z użytkowania wyświetlacza kursów walut</strong> <span class="label label-success">1599zł brutto</span></li>
-                <li><strong>Dojazd</strong> na terenie Wrocławia <span class="label label-success">0zł brutto</span></li>
-                <li><strong>Dojazd</strong> poza teren Wrocławia <span class="label label-success">3zł/km brutto</span></li>
-            </ul>
+    <div class="container">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">WKW Online&nbsp;+&nbsp;mikrokomputer</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">
+                        350<small class="text-muted">&nbsp;zł&nbsp;/&nbsp;mikrokomputer</small><br/>
+                        39
+                        <small class="text-muted">&nbsp;zł&nbsp;/&nbsp;mies.</small>
+                    </h1>
+                </div>
+                <div class="card-footer">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Liczba obsługiwanych telewizorów <b>1</b></li>
+                        <li>Wymagane złącze wejściowe w telewizorze <b>HDMI</b></li>
+                        <li>Wymagane połączenie telewizora z internetem <b>NIE</b></li>
+                        <li>Wymagane połączenie mikrokomputera z internetem <b>TAK</b></li>
+                        <li>Wymagana przeglądarka z trybem pełnoekranowym na telewizorze <b>NIE</b></li>
+                        <li>Poziomy sposób prezentacji na telewizorze <b>TAK</b></li>
+                        <li>Pionowy sposób prezentacji na telewizorze <b>TAK</b></li>
+                        <li>Liczba kolumn z kursami <b>1, 2 lub 3</b></li>
+                        <!--<li><b></b>Aplikacja do integracji z programem kasowym w pakiecie  tak</li>-->
+                        <li>Dostęp online do aplikacji WKW 2.0 <b>TAK</b></li>
+                        <li>Wymagana przeglądarka z trybem pełnoekranowym w telewizorze <b>NIE</b></li>
+                        <li><b></b>Wymagane zasilanie mikrokomputera <b>220V lub mikroUSB</b></li>
+                        <li>Panel sterowania dostępny z dowolnego urządzenia podłączonego do internetu <b>TAK</b></li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Zamów wersję z mikrokomputerem</button>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">WKW Online</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">
+                        -<br/>
+                        39<small class="text-muted">&nbsp;zł&nbsp;/&nbsp;mies.</small>
+                    </h1>
+                </div>
+                <div class="card-footer">
+
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Liczba obsługiwanych telewizorów <b>BEZ LIMITU</b></li>
+                        <li>Wymagane złącze wejściowe w telewizorze <b>BRAK</b></li>
+                        <li>Wymagane połączenie telewizora z internetem <b>TAK</b></li>
+                        <li>-</li>
+                        <li>Wymagana przeglądarka z trybem pełnoekranowym na telewizorze <b>TAK</b></li>
+                        <li>Poziomy sposób prezentacji na telewizorze <b>TAK</b></li>
+                        <li>Pionowy sposób prezentacji na telewizorze <b>NIE</b></li>
+                        <li>Liczba kolumn z kursami <b>1, 2 lub 3</b></li>
+                        <li>Dostęp online do aplikacji WKW 2.0 <b>TAK</b></li>
+                        <li>Wymagana przeglądarka z trybem pełnoekranowym w telewizorze <b>TAK</b></li>
+                        <li>-</li>
+                        <li>Panel sterowania dostępny z dowolnego urządzenia podłączonego do internetu <b>TAK</b></li>
+
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Wystartuj za darmo</button>
+                </div>
+
+            </div>
+
+            </div>
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-5">Dla każdej oferty abonamentowej:</h1>
+            <p class="lead">
+                Brak umowy abonamentowej - zero biurokracji<br/>
+                Brak okresu wypowiedzenia - przerywasz w dowolnym momencie<br/>
+                Płacisz na koniec miesiąca kalendarzowego (z dołu) - tylko jeśli chcesz kontynuować<br/>
+                Dostępy (login i hasło) otrzymujesz w odpowiedzi na maila z prośbą o start<br/>
             </p>
-            <p class="lead"><span class="glyphicon glyphicon-ok" style="font-size: 14px;">&nbsp;</span>W przypadku braku telewizora, do wydatków należy doliczyć koszt zakupu nowego
-            </p>
-            <p class="lead"><span class="glyphicon glyphicon-ok" style="font-size: 14px;">&nbsp;</span>Zaksięgowana <strong>zaliczka</strong> w kwocie 400zł przelewem na konto
-                stanowi moment rozpoczęcia realizacji zamówienia</p>
-            <p class="lead"><span class="glyphicon glyphicon-ok" style="font-size: 14px;">&nbsp;</span><strong>Pozostała płatność</strong> odbywa się w dniu przekazania sprzętu
-                oraz uruchomienia wyświetlacza kursów walut</p>
-            <p class="lead"><span class="glyphicon glyphicon-ok" style="font-size: 14px;">&nbsp;</span>Na wszystko <strong>wystawiamy FV</strong></p>
-            <p class="lead text-muted" style="font-size: 14px">Powyższa oferta ma charakter informacyjny i nie stanowi oferty handlowej w rozumieniu art. 66 §1 Kodeksu Cywilnego
-                oraz innych właściwych przepisów prawnych</p>
-        </div>
-        <div class="col-md-5 img-wrapper">
-            <img class="featurette-image img-responsive center-block" src="images/tablica-normal-grey.png" alt="biltec.pawel.bilewicz@gmail.com 722 39 28 23">
         </div>
     </div>
 
+</div>
 
-    <!--<hr class="featurette-divider">-->
 
-    <!-- FOOTER -->
-
-    <footer class="footer" id="kontakt">
-
-        <!--<div class="container-fluid">-->
-        <div class="container">
-
-            <div class="row text-center">
-                <p class="text-muted">© Copyright 2017 biltec</p>
-            </div>
-        </div>
-        <!--</div>-->
-    </footer>
 
 </div><!-- /.container -->
 
@@ -126,20 +165,20 @@
 <script src="js/bootstrap.min.js"></script>
 </body>
 <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-91611106-1', 'auto');
-    ga('send', 'pageview');
+	ga('create', 'UA-91611106-1', 'auto');
+	ga('send', 'pageview');
 
 </script>
 </html>
