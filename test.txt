@@ -1,1 +1,4 @@
-11:03
+#test
+dig wyswietlacz-kursow-walut.pl +nostats +nocomments +nocmd
+
+#https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
