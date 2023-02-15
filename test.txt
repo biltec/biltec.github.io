@@ -2,3 +2,6 @@
 dig wyswietlacz-kursow-walut.pl +nostats +nocomments +nocmd
 
 #https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+#włączanie SSL
+https://github.com/biltec/biltec.github.io/settings/pages
